@@ -1,0 +1,45 @@
+{
+  "name": "IntelliVault AI",
+  "slug": "intellivault-ai",
+  "version": "1.0.0",
+  "release_date": "2026-10",
+  "description": "Production-oriented bilingual Retrieval-Augmented Generation platform for secure, source-grounded PDF knowledge assistance.",
+  "author": "Vishal Kumar Sharma",
+  "repository": "intellivault-ai",
+  "components": {
+    "frontend": "intellivault-ai-frontend",
+    "api": "IntelliVault AI API",
+    "worker": "IntelliVault AI Worker"
+  },
+  "deployment": "Railway",
+  "storage": "S3-compatible object storage",
+  "github": {
+    "repository_name": "intellivault-ai",
+    "display_name": "IntelliVault AI",
+    "description": "Production-ready bilingual RAG knowledge assistant with FastAPI, React, PostgreSQL/pgvector, Redis, Celery, Ollama, S3-compatible object storage, streaming responses, observability, malware scanning and DevSecOps CI.",
+    "homepage": "",
+    "topics": [
+      "rag",
+      "retrieval-augmented-generation",
+      "fastapi",
+      "react",
+      "pgvector",
+      "postgresql",
+      "redis",
+      "celery",
+      "ollama",
+      "sentence-transformers",
+      "s3",
+      "railway",
+      "prometheus",
+      "grafana",
+      "docker",
+      "devsecops",
+      "ai",
+      "nlp",
+      "bilingual"
+    ],
+    "visibility_recommendation": "public",
+    "default_branch": "main"
+  }
+}

@@ -1,0 +1,11 @@
+[project]
+name = "intellivault-ai"
+version = "1.0.0"
+description = "Production-oriented bilingual Retrieval-Augmented Generation platform for secure, source-grounded PDF knowledge assistance."
+authors = [{ name = "Vishal Kumar Sharma" }]
+requires-python = ">=3.12"
+dynamic = ["dependencies"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
